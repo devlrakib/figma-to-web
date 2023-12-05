@@ -1,0 +1,93 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }  
+   
+   
+                                                                              /* Font */
+ @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@700&family=Noto+Sans+Kawi&family=Noto+Serif+Old+Uyghur&family=Open+Sans&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,100;1,400&family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+                                                                              /* Common Styles */
+
+body{
+    font-family:'Poppins', sans-serif;
+    background-color: antiquewhite;
+}
+.section_title{
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 3px;
+    margin-bottom: 30px;
+    /* margin-top: 30px;
+    margin-left: 30px */
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.container{
+    background-color: white;
+    width: 870px;
+    padding: 30px;
+}
+     
+   
+                                                                     /* Top Players Style */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    grid-row-gap:30px;
+    /* margin-left: 30px;
+    margin-top: 30px;  */
+}
+
+.player{
+    display: flex;
+    align-items:center;
+}
+
+
+
+.player img{
+    width: 56px;
+    height: 56px;   
+}
+
+.player_name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+.section_title_bottom{
+    margin-top: 20px;
+}
+
+                                                               /* Top Blogs Styles */
+.blogs{
+    display: grid;
+    row-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog{
+    display: flex;
+    gap: 10px;
+}
+.blog .thumbnail img{
+    width: 117px;
+    height: 117px;
+}
+
+.blog_info{
+    margin-left: 6px;
+    padding: 20px;
+} 
+
+ .blog_author a{
+    text-decoration: none;
+    margin-top: 20px;
+}
+
