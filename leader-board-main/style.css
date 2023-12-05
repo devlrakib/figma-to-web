@@ -31,6 +31,7 @@ main{
 
 .container{
     background-color: white;
+    border-radius: 5px;
     width: 870px;
     padding: 30px;
 }
@@ -74,7 +75,7 @@ main{
 }
 .blog{
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 .blog .thumbnail img{
     width: 117px;
